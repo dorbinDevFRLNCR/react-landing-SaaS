@@ -1,0 +1,126 @@
+@media (min-width: 768px){
+  .h-1,
+  .h-3{font-size: 7.5em;}
+  .h-2{font-size: 6.4em;}
+  .h-4{font-size: 3.2em;}
+  .h-5{font-size: 2.7em;}
+
+  .p-1{font-size: 1.6em;}
+  .p-2{font-size: 2em;}
+
+  .caption{font-size: 1.6em;}
+
+  .link-menu{font-size: 2.6em;}
+
+  .link{font-size: 1.6em;}
+
+  .info-card{
+    margin-bottom: 0;
+  }
+
+  .hero{
+    height: 100dvh;
+    background-position: normal;
+    background: url(../assets/images/tablet/hero-1.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .cta{
+    height: 73dvh;
+    background-position: normal;
+    background: url(../assets/images/tablet/cta-back.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .footer{
+    background: url(../assets/images/tablet/footer-back.jpg) no-repeat;
+    background-position: normal;
+    background-size: cover;
+  }
+
+  .hero-subcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+
+  .info-content{
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .stats{
+    display: flex;
+  }
+
+  .stats .stat{
+    width: 50vw;
+  }
+
+  .stat:first-child{
+    background: url(../assets/images/tablet/task-img.jpg) no-repeat;
+    background-position: normal;
+    background-size: cover;
+  }
+
+  .content-inner{
+    flex-direction: row;
+  }
+
+  .contact-column,
+  .social-column{
+    width: 50vw;
+  }
+
+  .contact-column .email-contact{
+    padding-bottom: 20px;
+
+
+  }
+}
+
+@media (min-width: 1280px){
+  .h-1{font-size: 13em;}
+  .h-2{font-size: 12em;}
+  .h-3{font-size: 10em;}
+  .h-4{font-size: 4.8em;}
+  .h-5{font-size: 3.2em;}
+
+  .p-1{font-size: 2em;}
+  .p-2{font-size: 2.4em;}
+
+  .caption{font-size: 1.8em;}
+
+  .link-menu{font-size: 2.6em;}
+
+  .link{font-size: 1.8em;}
+
+  .cta{
+    height: 100dvh;
+  }
+
+  .stat{
+    height: 100vh;
+  }
+
+  .stat:first-child{
+    background: url(../assets/images/desktop/task-img.jpg) no-repeat;
+    background-position: normal;
+    background-size: cover;
+  }
+
+  .footer{
+    background: url(../assets/images/desktop/footer-back.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .cta{
+    background: url(../assets/images/desktop/cta-back.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .hero{
+    background: url(../assets/images/desktop/hero.jpg) no-repeat;
+    background-size: cover;
+  }
+} 

@@ -1,0 +1,71 @@
+@media (min-width: 768px){
+  .display-one{font-size: 20em;}
+  .display-two{font-size: 8.4em;}
+  .display-three{font-size: 6.4em;}
+  .hero-display{font-size: 7.2em;}
+  .p-one{font-size: 3.2em;}
+  .p-two{font-size: 1.8em;}
+  .p-three{font-size: 1.4em;}
+  .h-one{font-size: 3.2em;}
+  .h-two{font-size: 2em;}
+  .h-three{font-size: 1.8em;}
+
+  .hero-wrapper {
+    height: 100dvh;
+    position: relative;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* затемнение */
+    url('../assets/images/desktop/hero-three.jpg') cover no-repeat;
+  }
+
+  .footer-header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-contact-info{
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-contact-info .column{
+    width: 100%;
+    max-width: 30vw;
+  }
+  
+  .steps-content{
+    padding: 114px 64px;
+  }
+
+  .service-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+  }
+
+  .service p:nth-child(2){
+    padding-bottom: 0;
+  }
+
+  .next-steps-cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1280px){
+  .display-one{font-size: 30em;}
+  .display-two{font-size: 12em;}
+  .display-three{font-size: 7.6em;}
+  .hero-display{font-size: 12em;}
+  .p-one{font-size: 3.2em;}
+  .p-two{font-size: 1.8em;}
+  .p-three{font-size: 1.4em;}
+  .h-one{font-size: 3.2em;}
+
+  .subcontent{
+    width: 481px;
+  }
+}

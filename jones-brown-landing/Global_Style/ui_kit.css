@@ -1,0 +1,114 @@
+/* ui-kit */
+
+:root{
+  /* Background colors */
+
+  --bg-1: #F7F4EB;
+
+  --bg-2: #0D1F08;
+
+  --bg-3: #1F0808;
+
+  /* Paragraph colors */
+
+  --p-primary: #000000;
+
+  --p-secondsry: #FFFFFF;
+
+  /* Display colors */
+
+  --d-one: #F2F2F2;
+
+  --d-two: #fff;
+
+  --d-three: #F7F4EB;
+
+  --d-vour: #000000;
+
+
+
+  --accent: #31110F;
+}
+
+
+/* Buttons */
+
+.button-dark{
+  background-color: var(--accent);
+  color: var(--p-secondsry);
+  text-align: center;
+  display: block;
+  border-radius: 50px;
+  padding: 18px 24px;
+  font-size: 1.8em;
+  transition: all 200ms ease;
+}
+
+.button-dark:hover{
+  background-color: var(--bg-3);
+}
+
+.button-light{
+  width: max-content;
+  background-color: var(--p-secondsry);
+  color: var(--p-primary);
+  display: block;
+  text-align: center;
+  border-radius: 50px;
+  padding: 18px 24px;
+  font-size: 1.8em;
+  transition: all 200ms ease;
+}
+
+.button-light:hover{
+  background-color: var(--bg-1);
+}
+
+.link{
+  font-size: 1.3em;
+  color: var(--d-one);
+}
+
+.button{
+  font-size: 1.8em;
+}
+
+.display-one{
+  font-size: 10em;
+  font-weight: 300;
+}
+
+.display-two{
+  font-size: 8.4em;
+  font-weight: 400;
+}
+
+.display-three{
+  font-size: 3.6em;
+  font-weight: 400;
+}
+
+.hero-display{
+  font-size: 3.6em;
+  font-weight: 400; 
+}
+
+.p-one{
+  font-size: 2.2em;
+  font-weight: 400;
+}
+
+.p-two{
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+.p-three{
+  color: var(--p-primary);
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.pb-48{
+  padding-bottom: 48px;
+}

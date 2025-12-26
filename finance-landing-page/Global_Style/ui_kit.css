@@ -1,0 +1,103 @@
+/* UI_KIT */
+
+
+
+.container{
+  width: 100%;
+  max-width: 344px;
+  margin: 40px 16px;
+}
+
+.quote{
+  font-size: 3em;
+}
+
+.button-on-light{
+  max-width: max-content;
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #2E4F21;
+  border: 1px solid #2E4F21;
+  padding: 12px;
+  border-radius: 50px;
+  transition: all 200ms ease;
+}
+
+.button-on-light:hover{
+  color: #2E4F21;
+  background-color: #A0F1BD;
+  border: 1px solid #A0F1BD;
+}
+
+.button-on-dark{
+  max-width: max-content;
+  color: #fff;
+  display: block;
+  text-align: center;
+  background-color: #2E4F21;
+  border: 1px solid #2E4F21;
+  padding: 12px;
+  border-radius: 50px;
+  transition: all 200ms ease;
+}
+
+.button-on-dark:hover{
+  color: #2E4F21;
+  background-color: #F9F9F9;
+  border: 1px solid #F9F9F9;
+}
+
+.button-white{
+  max-width: max-content;
+  display: block;
+  text-align: center;
+  background-color: #F9F9F9;
+  border: 1px solid #F9F9F9;
+  padding: 12px;
+  font-weight: 400;
+  border-radius: 50px;
+  transition: all 200ms ease;
+}
+
+.button-white:hover{
+  color: #2E4F21;
+  background-color: #A0F1BD;
+  border: 1px solid #A0F1BD;
+  border-radius: 50px;
+}
+
+.large-button{
+  max-width: max-content;
+  text-align: center;
+  display: block;
+  color: #fff;
+  background-color: #2E4F21;
+  border: 1px solid #2E4F21;
+  padding: 24px 30px;
+  border-radius: 50px;
+  transition: all 200ms ease;
+}
+
+.large-button:hover{
+  color: #2E4F21;
+  background-color: #A0F1BD;
+  border: 1px solid #A0F1BD;
+}
+
+.label-button{
+  max-width: max-content;
+  display: block;
+  text-align: center;
+  border: 1px solid #F9F9F9;
+  padding: 12px;
+  border-radius: 50px;
+  transition: all 200ms ease;
+}
+
+.label-button:hover{
+  color: #2E4F21;
+  background-color: #A0F1BD;
+  border: 1px solid #A0F1BD;
+}
+

@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 10px;
+}
+
+.h-1{font-size: 3.2em;}
+.h-2,
+.h-3{font-size: 5em;}
+.h-4{font-size: 2.4em; font-weight: 600;}
+.h-5{font-size: 2.2em; font-weight: 600;}
+
+.p-1{font-size: 1.4em; font-weight: 500;}
+.p-2{font-size: 1.8em; font-weight: 500;}
+
+.caption{font-size: 1.4em;}
+
+.link-menu{font-size: 2em;}
+
+.link{font-size: 1.6em; font-weight: 500;}
+
+.h-1,
+.h-2,
+.h-3,
+.display,
+.link-menu{
+  font-family: "Righteous", sans-serif;
+}
+
+
+
+.link-menu{
+  text-transform: uppercase;
+}
+
+.h-4,
+.h-5,
+.p-1,
+.p-2{
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.caption,
+.link{
+  font-family: "Roboto Mono", sans-serif;
+}
+
+img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+ul,li,ol{
+  list-style: none;
+}
+
+a{
+  font-family: "Righteous", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+a:not(.nav-item .link-menu){
+  width: max-content;
+  display: inline-block;
+}
+
+

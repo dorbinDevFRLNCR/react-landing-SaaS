@@ -1,0 +1,230 @@
+/* Styles */
+
+.hero{
+  height: auto;
+  min-height: 60vh;
+  background-image: url(../assets/images/hero-back.png);
+  background-size: cover;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.intro-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 700px;
+  padding-top: 100px;
+}
+
+.intro-description{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 48px;
+  max-width: 530px;
+}
+
+.my-skills{
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../assets/images/Skills-Background.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto;
+}
+
+.content-wrapper{
+  width: 100%;
+  max-width: 800px;
+  background-color: var(--bg-section);
+}
+
+.content{
+  width: 80%;
+  padding: 48px 64px;
+}
+
+.skills-intro{
+  padding-bottom: 48px;
+}
+
+.skills-intro h2{
+  font-size: 3em;
+  padding-bottom: 24px;
+}
+
+.skills-intro p{
+  font-family: "Open Sans";
+  font-weight: lighter;
+}
+
+.stat img{
+  height: auto;
+}
+
+.stat p{
+  font-family: "Sigmar One";
+  font-size: 2em;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.column .stat{
+  display: flex;
+  justify-content: space-between;
+}
+
+.column .stat .star-list{
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.portfolio-projects{
+  padding-top: 160px;
+}
+
+.portfolio-projects p{
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+.portfolio-intro{
+  margin: 0 auto;
+  width: 70%;
+  padding-bottom: 72px;
+  text-align: center;
+}
+
+.portfolio-intro .undertitle{
+  font-family: "Sigmar One";
+  font-weight: 500;
+  font-size: 2.4em;
+} 
+
+.portfolio-intro h3{
+  font-size: 4.8em;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+.project-list{
+  background-image: url(../assets/images/projects-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card{
+  width: 70%;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.project-description{
+  padding: 48px;
+  color: #fff;
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  background-color: var(--bg-section);
+}
+
+.about{
+  padding-bottom: 48px;
+}
+
+.about .title{
+  font-size: 2.4em;
+  padding-bottom: 18px;
+  font-family: "Sigmar One";
+}
+
+.view-link img{
+  width: 12px;
+  height: auto;
+}
+
+.view-link{
+  display: flex;
+  width: max-content;
+  gap: 14px;
+  transition: transform 0.2s ease;
+  align-items: center;
+  font-size: 1.6em;
+}
+
+.view-link:hover{
+  transform: translateY(-2px);
+}
+
+.desktop{
+  height: auto;
+}
+
+.desktop img{
+  margin-bottom: 20px;
+  border-radius: 18px;
+}
+
+.footer{
+  display: flex;
+  margin-top: 120px;
+  height: auto;
+  justify-content: flex-end;
+  background-image: url(../assets/images/footer-back.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--bg-section);
+}
+
+.footer-content{
+  max-width: 580px;
+  background-color: var(--bg-section);
+  border-radius: 18px;
+  padding: 50px;
+}
+
+.footer-content h4{
+  font-weight: 500;
+  padding-bottom: 24px;
+  font-size: 2.8em;
+}
+
+.sta{
+  font-family: "Open Sans";
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 48px;
+}
+
+.sta span{
+  color: #F1DA63;
+}
+
+.social-icons{
+  display: flex;
+  gap: 8px;
+}
+
+.footer-copyright{
+  display: flex;
+  padding-top: 20px;
+  padding: 40px;
+  justify-content: space-between;
+}

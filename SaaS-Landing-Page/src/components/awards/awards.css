@@ -1,0 +1,52 @@
+:root{
+  --info-color: #094BCA;
+  --title-color: #223140;
+}
+
+.awards-section{
+  width: max-content;
+  padding: 40px 0 150px 0;
+  margin: 0 auto;
+}
+
+.awards-container{
+  display: flex;
+  gap: 90px;
+}
+
+.award-container{
+  text-align: center;
+}
+
+.award-info{
+  color: var(--info-color);
+  font-size: 3.2em;
+  font-weight: 800;
+}
+
+.award-title{
+  color: var(--title-color);
+  font-size: 1.8em;
+}
+
+@media (max-width: 1024px) {
+  .awards-container{
+    gap: 50px;
+  }
+}
+
+@media (max-width: 880px){
+  .awards-section{
+    padding: 40px 20px 80px 20px;
+    width: 100%;
+  }
+
+  .awards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px, 1fr));
+  }
+
+  .award-info{
+    font-size: 2.5em;
+  }
+}

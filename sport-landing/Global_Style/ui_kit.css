@@ -1,0 +1,80 @@
+/* ui-kit */
+
+:root{
+  /* Backgrounds */
+  --bg-1: hwb(0 0% 100% / 0.60);
+  --bg-2: #202020;
+  --bg-3: #404040;
+  --bg-4: hsla(116, 100%, 78%, 0.6);
+  --bg-5: rgba(29, 29, 29, 0.9);
+
+  --bg-1-hover: #000000;
+  --bg-4-hover: #95FF8D;
+  /* Accents */
+
+  --accent-1: #fff;
+  --accent-2: #AAAAAA;
+  --accent-3: #202020;
+
+  --on-accent-1: #FFFFFF;
+  --on-accent-2: #000;
+  --on-accent-3: #404040;
+
+  --secondary-hover: #2B2B2B;
+}
+
+.btn{
+  padding: 7px 19px;
+  background-color: var(--bg-4-hover);
+  border-radius: 25px;
+  height: max-content;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  color: var(--bg-1);
+  transition: all 300ms ease;
+  text-transform: uppercase;
+}
+
+.btn:hover{
+  color: var(--bg-1-hover);
+}
+
+.btn-linkout{
+  background-color: var(--bg-4);
+  color: var(--bg-1);
+  border-radius: 24.5px;
+  transition: all 300ms ease;
+  padding: 7px 19px;
+}
+
+.btn-linkout .btn-content{
+  opacity: 60%;
+  transition: all 300ms ease;
+}
+
+.btn-linkout .btn-content:hover{
+  opacity: 100%;
+}
+
+.btn-linkout-secondary{
+  display: flex;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  color: var(--bg-1);
+  max-width: max-content;
+  border-radius: 24.5px;
+  transition: all 300ms ease;
+  background-color: var(--bg-3);
+  color: var(--bg-4);
+  padding: 12px 19px;
+}
+
+.btn-linkout-secondary img{
+  height: auto;
+  object-fit: contain;
+}
+
+.btn-linkout-secondary:hover{
+  background-color: var(--secondary-hover);
+}

@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body{
+  background-color: var(--bg-main);
+  color: #fff;
+  font-size: 10px;
+}
+
+h1{
+  font-size: 6.4em;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: "Sigmar One";
+}
+
+p{
+  font-size: 2em;
+}
+
+img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+ul,li,ol{
+  list-style: none;
+}
+
+a{
+  color: #fff;
+  width: max-content;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+

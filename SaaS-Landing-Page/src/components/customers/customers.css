@@ -1,0 +1,36 @@
+.customers-section{
+  padding-top: 60px;
+}
+
+.customer-intro{
+  width: 100%;
+  max-width: 771px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.customer-intro h3{
+  font-size: 3.2em;
+  padding-bottom: 35px;
+}
+
+.customer-intro p{
+  font-size: 1.8em;
+}
+
+@media(max-width: 768px){
+  .customer-intro{
+    padding: 0 20px 40px 20px;
+  }
+
+  .customer-intro h3{
+    font-size: 2.4em;
+  }
+
+  .customer-intro p{
+    font-size: 1.6em;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+}

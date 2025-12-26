@@ -1,0 +1,94 @@
+@media (min-width: 768px){
+  .display-one{font-size: 20em;}
+  .display-two{font-size: 8.4em;}
+  .display-three{font-size: 6.4em;}
+  .hero-display{font-size: 7.2em;}
+  .p-one{font-size: 3.2em;}
+  .p-two{font-size: 1.8em;}
+  .p-three{font-size: 1.4em;}
+  .h-one{font-size: 3.2em;}
+  .h-two{font-size: 2em;}
+  .h-three{font-size: 1.8em;}
+
+  .hero-wrapper {
+    height: 100dvh;
+    position: relative;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* затемнение */
+    url('../assets/images/desktop/hero-image-two.jpg')cover no-repeat;
+}
+
+  .hero-content{
+    padding: 0 50px;
+    bottom: 70px;
+  }
+
+  .stats-content{
+    flex-direction: row;
+    padding: 96px 64px;
+    justify-content: space-around;
+  }
+
+  .our-services-content{
+    padding: 114px 64px;
+  }
+
+  .services-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .divider img{
+    content: url(../assets/images/tablet/divider-two.jpg);
+  }
+
+  .footer-header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-contact-info{
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-contact-info .column{
+    width: 100%;
+    max-width: 30vw;
+  }
+}
+
+@media (min-width: 1280px){
+  .display-one{font-size: 30em;}
+  .display-two{font-size: 12em;}
+  .display-three{font-size: 7.6em;}
+  .hero-display{font-size: 12em;}
+  .p-one{font-size: 3.2em;}
+  .p-two{font-size: 1.8em;}
+  .p-three{font-size: 1.4em;}
+  .h-one{font-size: 3.2em;}
+
+  .hero-content{
+    width: 55vw;
+
+  }
+
+  .services-list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-content{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+  }
+
+  .service-content p:last-child{
+    width: 420px;
+  }
+
+  .divider img{
+    content: url(../assets/images/desktop/divider-two.jpg);
+  }
+}
