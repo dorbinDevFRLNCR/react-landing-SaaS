@@ -1,16 +1,57 @@
-# React + Vite
+# SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive landing page for a SaaS product built with React and Vite. Features clean design, multiple sections, and mobile-first adaptive layout.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the deployed site:  
+[https://react-landing-saas.vercel.app/](https://react-landing-saas.vercel.app/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fully responsive design (mobile, tablet, desktop)
+- Modern UI with smooth scrolling
+- Reusable React components
+- Fast build and deployment with Vite
+- Hosted on Vercel with automatic deployments
 
-## Expanding the ESLint configuration
+## Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Hero section with headline and CTA
+- Benefits
+- Features
+- Integrations
+- Customer testimonials
+- Awards
+- Call to Action
+- Blog posts preview
+- Footer with links
+
+## Tech Stack
+
+- React 18
+- Vite (build tool)
+- CSS (plain or modules)
+- Vercel (hosting & deployment)
+
+## Setup & Local Development
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/dorbinDevFRLNCR/react-landing-SaaS.git
+   cd react-landing-SaaS
+   ```
+
+```
+
+```
+
+## Deployment
+
+The site is automatically deployed on every push to the master branch via Vercel.
+
+## Author
+
+dorbinDevFRLNCR
+
+Made with 💪 and ☕ in 2025
